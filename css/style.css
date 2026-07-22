@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    /* Backgrounds */
+    --bg-main: #0B1020;
+    --bg-sidebar: #11182D;
+    --bg-card: #141D34;
+
+    /* Borders */
+    --border: #242F4A;
+
+    /* Brand Colors */
+    --primary: #2563EB;
+    --secondary: #5A3BFF;
+
+    /* Status Colors */
+    --success: #22C55E;
+    --warning: #F59E0B;
+    --danger: #EF4444;
+
+    /* Text */
+    --text: #F5F7FF;
+    --text-light: #9BA8C8;
+}
+
+body{
+    background-color: var(--bg-main);
+}
