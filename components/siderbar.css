@@ -1,7 +1,8 @@
 .sidebar{
     width: 210px;
+    height: 100%;
     background-color: 	var(--bg-sidebar);
-    padding: 20px 10px;
+    padding: 20px 10px 30px 10px;
     display: flex;
     flex-direction: column;
     row-gap: 30px;
@@ -9,6 +10,7 @@
     border-color: var(--border);
     border-left-color: transparent;
     border-width: 1px;
+    
 }
 
 .logo-text{
@@ -78,9 +80,9 @@
     height: 110px;
     border-style: solid;
     border-radius: 50%;
-    border-left-color: rgb(47, 255, 134);
+    border-left-color: #10B981;
     border-top-color: rgb(204, 233, 74);
-    border-bottom-color: rgb(47, 255, 134);
+    border-bottom-color: #10B981;
     border-right-color: rgba(53, 0, 139, 0.729);
     border-width: 14px;
     display: flex;
