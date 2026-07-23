@@ -51,6 +51,110 @@
                 </div>
             </header>
 
+            <!-- Main Row 1 -->
+            <div class="row g-4 mb-4">
+                
+                <!-- Weather Card -->
+                <div class="col-xl-6 col-lg-12">
+                    <div class="premium-card weather-gradient h-100 d-flex flex-column justify-content-between">
+                        <div>
+                            <h5 class="text-white fw-normal mb-4 fs-6">Current Weather</h5>
+                            <div class="d-flex align-items-center gap-4">
+                                <img src="https://cdn-icons-png.flaticon.com/512/1163/1163661.png" alt="Cloudy" style="width: 100px; filter: drop-shadow(0 10px 15px rgba(0,0,0,0.2));">
+                                <div class="text-white">
+                                    <h1 class="display-3 fw-bold mb-0" style="letter-spacing: -2px;">32<span class="fs-2 fw-normal">°C</span></h1>
+                                    <h5 class="fw-semibold mb-0 mt-1">Partly Cloudy</h5>
+                                    <small style="color: rgba(255,255,255,0.7);">Feels like 36°C</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="weather-details d-flex justify-content-between align-items-center mt-4">
+                            <div class="text-center">
+                                <small class="detail-label">Humidity</small>
+                                <h6 class="text-white mb-0 fw-semibold">63%</h6>
+                            </div>
+                            <div class="text-center">
+                                <small class="detail-label">Wind</small>
+                                <h6 class="text-white mb-0 fw-semibold">18 <span class="fw-normal" style="font-size:12px;">km/h</span></h6>
+                            </div>
+                            <div class="text-center">
+                                <small class="detail-label">Pressure</small>
+                                <h6 class="text-white mb-0 fw-semibold">1008 <span class="fw-normal" style="font-size:12px;">hPa</span></h6>
+                            </div>
+                            <div class="text-center">
+                                <small class="detail-label">Visibility</small>
+                                <h6 class="text-white mb-0 fw-semibold">10 <span class="fw-normal" style="font-size:12px;">km</span></h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- AQI, UV & Alerts -->
+                <div class="col-xl-6 col-lg-12">
+                    <div class="row g-4 mb-3">
+                        <!-- AQI Card -->
+                        <div class="col-sm-6">
+                            <div class="premium-card bg-card h-100">
+                                <h6 class="text-white mb-3 fs-6">Air Quality Index</h6>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h2 class="text-white fw-bold mb-0">54</h2>
+                                        <span class="text-success fw-medium text-uppercase" style="font-size: 12px; letter-spacing: 1px;">Moderate</span>
+                                    </div>
+                                    <div class="circular-progress" style="--val: 54; --color: var(--success);"></div>
+                                </div>
+                                <p class="text-muted mt-3 mb-0" style="font-size: 12px; line-height: 1.5;">Good air quality for most people.</p>
+                            </div>
+                        </div>
+                        <!-- UV Card -->
+                        <div class="col-sm-6">
+                            <div class="premium-card bg-card h-100">
+                                <h6 class="text-white mb-3 fs-6">UV Index</h6>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <h2 class="text-white fw-bold mb-0">6</h2>
+                                        <span class="text-warning fw-medium text-uppercase" style="font-size: 12px; letter-spacing: 1px;">High</span>
+                                    </div>
+                                    <div class="circular-progress" style="--val: 60; --color: var(--warning);"></div>
+                                </div>
+                                <p class="text-muted mt-3 mb-0" style="font-size: 12px; line-height: 1.5;">Use sunscreen & wear sunglasses.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Alert Mini Cards -->
+                    <div class="row g-3">
+                        <div class="col-sm-4">
+                            <div class="alert-box alert-primary">
+                                <div class="d-flex gap-2 align-items-center mb-1">
+                                    <i class="ri-rainy-fill text-primary"></i>
+                                    <span class="text-white fw-medium" style="font-size: 12px;">Rain <span class="text-muted">Expected</span></span>
+                                </div>
+                                <p class="mb-0" style="font-size: 10px; color: var(--text-light);">Light rain in the evening.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="alert-box alert-danger">
+                                <div class="d-flex gap-2 align-items-center mb-1">
+                                    <i class="ri-fire-fill text-danger"></i>
+                                    <span class="text-danger fw-medium" style="font-size: 12px;">Heat Alert</span>
+                                </div>
+                                <p class="mb-0" style="font-size: 10px; color: var(--text-light);">Stay hydrated. Drink more water.</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="alert-box alert-success">
+                                <div class="d-flex gap-2 align-items-center mb-1">
+                                    <i class="ri-leaf-fill text-success"></i>
+                                    <span class="text-success fw-medium" style="font-size: 12px;">Air Quality</span>
+                                </div>
+                                <p class="mb-0" style="font-size: 10px; color: var(--text-light);">AQI is moderate today.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             
 
         </div>
