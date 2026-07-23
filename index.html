@@ -193,7 +193,52 @@
                 </div>
             </div>
 
-            
+            <!-- Forecasts & Charts Row -->
+            <div class="row g-4">
+                <div class="col-xl-8 col-lg-12">
+                    <div class="premium-card bg-card h-100 p-4">
+                        <h6 class="text-white mb-4 fs-6">Today's Overview</h6>
+                        <div class="chart-legend d-flex gap-4 mb-3" style="font-size: 12px;">
+                            <div class="d-flex align-items-center gap-2"><span style="width: 8px; height: 8px; border-radius: 50%; background: var(--warning);"></span><span class="text-muted">Temperature (°C)</span></div>
+                            <div class="d-flex align-items-center gap-2"><span style="width: 8px; height: 8px; border-radius: 50%; background: var(--primary);"></span><span class="text-muted">Humidity (%)</span></div>
+                            <div class="d-flex align-items-center gap-2"><span style="width: 8px; height: 8px; border-radius: 50%; background: var(--success);"></span><span class="text-muted">Wind (km/h)</span></div>
+                        </div>
+                        <!-- Canvas Container -->
+                        <div style="height: 220px; width: 100%;">
+                            <canvas id="premiumChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-lg-12">
+                    <div class="premium-card bg-card h-100 p-4">
+                        <h6 class="text-white mb-4 fs-6">Safety Tips</h6>
+                        <div class="d-flex flex-column gap-4">
+                            <div class="tip-item d-flex gap-3 align-items-center">
+                                <div class="icon-wrapper text-primary bg-primary-soft rounded-circle"><i class="ri-umbrella-fill"></i></div>
+                                <div>
+                                    <h6 class="text-white mb-1" style="font-size: 13px;">Carry an umbrella</h6>
+                                    <p class="text-muted mb-0" style="font-size: 11px;">Rain expected in the evening</p>
+                                </div>
+                            </div>
+                            <div class="tip-item d-flex gap-3 align-items-center">
+                                <div class="icon-wrapper text-warning bg-warning-soft rounded-circle"><i class="ri-drop-fill"></i></div>
+                                <div>
+                                    <h6 class="text-white mb-1" style="font-size: 13px;">Stay hydrated</h6>
+                                    <p class="text-muted mb-0" style="font-size: 11px;">High temperature during afternoon</p>
+                                </div>
+                            </div>
+                            <div class="tip-item d-flex gap-3 align-items-center">
+                                <div class="icon-wrapper text-danger bg-danger-soft rounded-circle"><i class="ri-sun-fill"></i></div>
+                                <div>
+                                    <h6 class="text-white mb-1" style="font-size: 13px;">Use sunscreen</h6>
+                                    <p class="text-muted mb-0" style="font-size: 11px;">UV index is high</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
